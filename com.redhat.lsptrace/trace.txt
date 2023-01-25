@@ -1,0 +1,3616 @@
+[Trace - 2:41:23 PM] Sending request 'initialize - (0)'.
+Params: {
+    "processId": 20836,
+    "clientInfo": {
+        "name": "Visual Studio Code",
+        "version": "1.74.3"
+    },
+    "locale": "en-us",
+    "rootPath": "c:\\Users\\azerr\\Downloads\\vscode-xml-catalog-test",
+    "rootUri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test",
+    "capabilities": {
+        "workspace": {
+            "applyEdit": true,
+            "workspaceEdit": {
+                "documentChanges": true,
+                "resourceOperations": [
+                    "create",
+                    "rename",
+                    "delete"
+                ],
+                "failureHandling": "textOnlyTransactional",
+                "normalizesLineEndings": true,
+                "changeAnnotationSupport": {
+                    "groupsOnLabel": true
+                }
+            },
+            "configuration": true,
+            "didChangeWatchedFiles": {
+                "dynamicRegistration": true,
+                "relativePatternSupport": true
+            },
+            "symbol": {
+                "dynamicRegistration": true,
+                "symbolKind": {
+                    "valueSet": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26
+                    ]
+                },
+                "tagSupport": {
+                    "valueSet": [
+                        1
+                    ]
+                },
+                "resolveSupport": {
+                    "properties": [
+                        "location.range"
+                    ]
+                }
+            },
+            "codeLens": {
+                "refreshSupport": true
+            },
+            "executeCommand": {
+                "dynamicRegistration": true
+            },
+            "didChangeConfiguration": {
+                "dynamicRegistration": true
+            },
+            "workspaceFolders": true,
+            "semanticTokens": {
+                "refreshSupport": true
+            },
+            "fileOperations": {
+                "dynamicRegistration": true,
+                "didCreate": true,
+                "didRename": true,
+                "didDelete": true,
+                "willCreate": true,
+                "willRename": true,
+                "willDelete": true
+            },
+            "inlineValue": {
+                "refreshSupport": true
+            },
+            "inlayHint": {
+                "refreshSupport": true
+            },
+            "diagnostics": {
+                "refreshSupport": true
+            }
+        },
+        "textDocument": {
+            "publishDiagnostics": {
+                "relatedInformation": true,
+                "versionSupport": false,
+                "tagSupport": {
+                    "valueSet": [
+                        1,
+                        2
+                    ]
+                },
+                "codeDescriptionSupport": true,
+                "dataSupport": true
+            },
+            "synchronization": {
+                "dynamicRegistration": true,
+                "willSave": true,
+                "willSaveWaitUntil": true,
+                "didSave": true
+            },
+            "completion": {
+                "dynamicRegistration": true,
+                "contextSupport": true,
+                "completionItem": {
+                    "snippetSupport": true,
+                    "commitCharactersSupport": true,
+                    "documentationFormat": [
+                        "markdown",
+                        "plaintext"
+                    ],
+                    "deprecatedSupport": true,
+                    "preselectSupport": true,
+                    "tagSupport": {
+                        "valueSet": [
+                            1
+                        ]
+                    },
+                    "insertReplaceSupport": true,
+                    "resolveSupport": {
+                        "properties": [
+                            "documentation",
+                            "detail",
+                            "additionalTextEdits"
+                        ]
+                    },
+                    "insertTextModeSupport": {
+                        "valueSet": [
+                            1,
+                            2
+                        ]
+                    },
+                    "labelDetailsSupport": true
+                },
+                "insertTextMode": 2,
+                "completionItemKind": {
+                    "valueSet": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25
+                    ]
+                },
+                "completionList": {
+                    "itemDefaults": [
+                        "commitCharacters",
+                        "editRange",
+                        "insertTextFormat",
+                        "insertTextMode"
+                    ]
+                }
+            },
+            "hover": {
+                "dynamicRegistration": true,
+                "contentFormat": [
+                    "markdown",
+                    "plaintext"
+                ]
+            },
+            "signatureHelp": {
+                "dynamicRegistration": true,
+                "signatureInformation": {
+                    "documentationFormat": [
+                        "markdown",
+                        "plaintext"
+                    ],
+                    "parameterInformation": {
+                        "labelOffsetSupport": true
+                    },
+                    "activeParameterSupport": true
+                },
+                "contextSupport": true
+            },
+            "definition": {
+                "dynamicRegistration": true,
+                "linkSupport": true
+            },
+            "references": {
+                "dynamicRegistration": true
+            },
+            "documentHighlight": {
+                "dynamicRegistration": true
+            },
+            "documentSymbol": {
+                "dynamicRegistration": true,
+                "symbolKind": {
+                    "valueSet": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26
+                    ]
+                },
+                "hierarchicalDocumentSymbolSupport": true,
+                "tagSupport": {
+                    "valueSet": [
+                        1
+                    ]
+                },
+                "labelSupport": true
+            },
+            "codeAction": {
+                "dynamicRegistration": true,
+                "isPreferredSupport": true,
+                "disabledSupport": true,
+                "dataSupport": true,
+                "resolveSupport": {
+                    "properties": [
+                        "edit"
+                    ]
+                },
+                "codeActionLiteralSupport": {
+                    "codeActionKind": {
+                        "valueSet": [
+                            "",
+                            "quickfix",
+                            "refactor",
+                            "refactor.extract",
+                            "refactor.inline",
+                            "refactor.rewrite",
+                            "source",
+                            "source.organizeImports"
+                        ]
+                    }
+                },
+                "honorsChangeAnnotations": false
+            },
+            "codeLens": {
+                "dynamicRegistration": true
+            },
+            "formatting": {
+                "dynamicRegistration": true
+            },
+            "rangeFormatting": {
+                "dynamicRegistration": true
+            },
+            "onTypeFormatting": {
+                "dynamicRegistration": true
+            },
+            "rename": {
+                "dynamicRegistration": true,
+                "prepareSupport": true,
+                "prepareSupportDefaultBehavior": 1,
+                "honorsChangeAnnotations": true
+            },
+            "documentLink": {
+                "dynamicRegistration": true,
+                "tooltipSupport": true
+            },
+            "typeDefinition": {
+                "dynamicRegistration": true,
+                "linkSupport": true
+            },
+            "implementation": {
+                "dynamicRegistration": true,
+                "linkSupport": true
+            },
+            "colorProvider": {
+                "dynamicRegistration": true
+            },
+            "foldingRange": {
+                "dynamicRegistration": true,
+                "rangeLimit": 5000,
+                "lineFoldingOnly": true,
+                "foldingRangeKind": {
+                    "valueSet": [
+                        "comment",
+                        "imports",
+                        "region"
+                    ]
+                },
+                "foldingRange": {
+                    "collapsedText": false
+                }
+            },
+            "declaration": {
+                "dynamicRegistration": true,
+                "linkSupport": true
+            },
+            "selectionRange": {
+                "dynamicRegistration": true
+            },
+            "callHierarchy": {
+                "dynamicRegistration": true
+            },
+            "semanticTokens": {
+                "dynamicRegistration": true,
+                "tokenTypes": [
+                    "namespace",
+                    "type",
+                    "class",
+                    "enum",
+                    "interface",
+                    "struct",
+                    "typeParameter",
+                    "parameter",
+                    "variable",
+                    "property",
+                    "enumMember",
+                    "event",
+                    "function",
+                    "method",
+                    "macro",
+                    "keyword",
+                    "modifier",
+                    "comment",
+                    "string",
+                    "number",
+                    "regexp",
+                    "operator",
+                    "decorator"
+                ],
+                "tokenModifiers": [
+                    "declaration",
+                    "definition",
+                    "readonly",
+                    "static",
+                    "deprecated",
+                    "abstract",
+                    "async",
+                    "modification",
+                    "documentation",
+                    "defaultLibrary"
+                ],
+                "formats": [
+                    "relative"
+                ],
+                "requests": {
+                    "range": true,
+                    "full": {
+                        "delta": true
+                    }
+                },
+                "multilineTokenSupport": false,
+                "overlappingTokenSupport": false,
+                "serverCancelSupport": true,
+                "augmentsSyntaxTokens": true
+            },
+            "linkedEditingRange": {
+                "dynamicRegistration": true
+            },
+            "typeHierarchy": {
+                "dynamicRegistration": true
+            },
+            "inlineValue": {
+                "dynamicRegistration": true
+            },
+            "inlayHint": {
+                "dynamicRegistration": true,
+                "resolveSupport": {
+                    "properties": [
+                        "tooltip",
+                        "textEdits",
+                        "label.tooltip",
+                        "label.location",
+                        "label.command"
+                    ]
+                }
+            },
+            "diagnostic": {
+                "dynamicRegistration": true,
+                "relatedDocumentSupport": false
+            }
+        },
+        "window": {
+            "showMessage": {
+                "messageActionItem": {
+                    "additionalPropertiesSupport": true
+                }
+            },
+            "showDocument": {
+                "support": true
+            },
+            "workDoneProgress": true
+        },
+        "general": {
+            "staleRequestSupport": {
+                "cancel": true,
+                "retryOnContentModified": [
+                    "textDocument/semanticTokens/full",
+                    "textDocument/semanticTokens/range",
+                    "textDocument/semanticTokens/full/delta"
+                ]
+            },
+            "regularExpressions": {
+                "engine": "ECMAScript",
+                "version": "ES2020"
+            },
+            "markdown": {
+                "parser": "marked",
+                "version": "1.1.0"
+            },
+            "positionEncodings": [
+                "utf-16"
+            ]
+        },
+        "notebookDocument": {
+            "synchronization": {
+                "dynamicRegistration": true,
+                "executionSummarySupport": true
+            }
+        }
+    },
+    "initializationOptions": {
+        "settings": {
+            "xml": {
+                "java": {
+                    "home": "C:\\Users\\azerr\\Tools\\java-17-openjdk-17.0.3.0.6-3.win.x86_64"
+                },
+                "server": {
+                    "vmargs": "-Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication",
+                    "workDir": "~/.lemminx",
+                    "preferBinary": false,
+                    "silenceExtensionWarning": false,
+                    "binary": {
+                        "path": "",
+                        "args": "",
+                        "trustedHashes": [
+                            "b6a0f35f9d1cd73fc3804d9d92c5ce8923bd97b78e2018fb1a607958f58bcda6",
+                            "34f51b1d8c3b85bf8af72502c3a52ca841d11cf76f848be198631e0dd2b7e169"
+                        ]
+                    }
+                },
+                "trace": {
+                    "server": "verbose"
+                },
+                "logs": {
+                    "client": true,
+                    "file": "c:\\Users\\azerr\\AppData\\Roaming\\Code\\User\\workspaceStorage\\e4ffd3dc7ef10e6afe0b7b2313e41780\\redhat.vscode-xml\\lemminx.log"
+                },
+                "downloadExternalResources": {
+                    "enabled": true
+                },
+                "catalogs": [
+                    "C:\\Users\\azerr\\eclipse-workspace2\\.metadata\\.plugins\\org.eclipse.wildwebdeveloper.xml\\system-catalog.xml",
+                    "C:\\Users\\azerr\\Downloads\\annotationbug\\annotationbug\\jboss\\catalog.xml",
+                    "C:\\Users\\azerr\\Downloads\\Large XML\\xml-model\\catalog.xml"
+                ],
+                "fileAssociations": [
+                    {
+                        "pattern": "**/*.fsproj",
+                        "systemId": "MSBuild/Microsoft.Build.Commontypes.xsd"
+                    },
+                    {
+                        "pattern": "**/.project",
+                        "systemId": ".project.xsd"
+                    },
+                    {
+                        "pattern": "**/Untitled-1.xml",
+                        "systemId": "file:///c%3A/Users/azerr/Downloads/test11.dtd"
+                    },
+                    {
+                        "pattern": "**/baz.xml",
+                        "systemId": "__relaxng/baz.rnc"
+                    },
+                    {
+                        "pattern": "**/foo.xml",
+                        "systemId": "__relaxng/xi/foo.rng"
+                    },
+                    {
+                        "pattern": "**/empty.xml",
+                        "systemId": "BugReportXML/bad.xsd"
+                    }
+                ],
+                "foldings": {
+                    "includeClosingTagInFold": true
+                },
+                "format": {
+                    "enabled": true,
+                    "emptyElements": "ignore",
+                    "enforceQuoteStyle": "ignore",
+                    "legacy": false,
+                    "grammarAwareFormatting": false,
+                    "joinCDATALines": false,
+                    "joinCommentLines": false,
+                    "joinContentLines": false,
+                    "maxLineWidth": 100,
+                    "preserveAttributeLineBreaks": true,
+                    "preserveEmptyContent": false,
+                    "preservedNewlines": 2,
+                    "preserveSpace": [
+                        "xsl:comment",
+                        "xsl:processing-instruction",
+                        "literallayout",
+                        "programlisting",
+                        "screen",
+                        "synopsis",
+                        "pre",
+                        "xd:pre",
+                        "xs:documentation"
+                    ],
+                    "spaceBeforeEmptyCloseTag": true,
+                    "xsiSchemaLocationSplit": "onPair",
+                    "splitAttributes": false,
+                    "splitAttributesIndentSize": 2,
+                    "closingBracketNewLine": false,
+                    "experimental": true,
+                    "trimFinalNewlines": true,
+                    "trimTrailingWhitespace": true,
+                    "insertFinalNewline": true
+                },
+                "completion": {
+                    "autoCloseTags": true,
+                    "autoCloseRemovesContent": true
+                },
+                "codeLens": {
+                    "enabled": true
+                },
+                "preferences": {
+                    "quoteStyle": "double",
+                    "showSchemaDocumentationType": "all"
+                },
+                "validation": {
+                    "enabled": true,
+                    "namespaces": {
+                        "enabled": "onNamespaceEncountered"
+                    },
+                    "schema": {
+                        "enabled": "always"
+                    },
+                    "disallowDocTypeDecl": false,
+                    "resolveExternalEntities": true,
+                    "xInclude": {
+                        "enabled": true
+                    },
+                    "noGrammar": "hint",
+                    "filters": [
+                        {
+                            "pattern": "**.exsd",
+                            "noGrammar": "ignore",
+                            "schema": {
+                                "enabled": "never"
+                            }
+                        },
+                        {
+                            "pattern": "**{.project,.classpath,plugin.xml,feature.xml,category.xml,.target,.product}",
+                            "noGrammar": "ignore"
+                        }
+                    ]
+                },
+                "symbols": {
+                    "enabled": false,
+                    "excluded": [],
+                    "maxItemsComputed": 100,
+                    "showReferencedGrammars": true,
+                    "filters": [
+                        {
+                            "pattern": "test.xml",
+                            "expressions": [
+                                {
+                                    "xpath": "//Layout"
+                                },
+                                {
+                                    "xpath": "//Record"
+                                },
+                                {
+                                    "xpath": "//Record/@*"
+                                },
+                                {
+                                    "xpath": "//",
+                                    "excluded": true
+                                }
+                            ]
+                        },
+                        {
+                            "pattern": "pomx.xml",
+                            "expressions": [
+                                {
+                                    "xpath": "//version/text()"
+                                },
+                                {
+                                    "xpath": "//groupId/text()"
+                                }
+                            ]
+                        },
+                        {
+                            "pattern": "bean*.xml",
+                            "expressions": [
+                                {
+                                    "xpath": "//@*"
+                                }
+                            ]
+                        },
+                        {
+                            "pattern": "build.xml",
+                            "expressions": [
+                                {
+                                    "xpath": "//target/@name",
+                                    "inlineAttribute": true,
+                                    "showAttributeName": false
+                                },
+                                {
+                                    "xpath": "//target/@unless"
+                                },
+                                {
+                                    "xpath": "//target/@depends"
+                                },
+                                {
+                                    "xpath": "//property/@name",
+                                    "inlineAttribute": true,
+                                    "showAttributeName": false
+                                },
+                                {
+                                    "xpath": "//property/@file",
+                                    "inlineAttribute": true,
+                                    "showAttributeName": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "references": [
+                    {
+                        "pattern": "**/*.xml",
+                        "prefix": "#",
+                        "expressions": [
+                            {
+                                "from": "@corresp",
+                                "to": "@xml:id"
+                            },
+                            {
+                                "from": "@resp",
+                                "to": "persName/@xml:id"
+                            },
+                            {
+                                "from": "link/@target",
+                                "to": "@xml:id",
+                                "multiple": true
+                            }
+                        ]
+                    },
+                    {
+                        "pattern": "**/*.xml",
+                        "expressions": [
+                            {
+                                "from": "xref/@linkend",
+                                "to": "@id"
+                            }
+                        ]
+                    },
+                    {
+                        "pattern": "**/web.xml",
+                        "expressions": [
+                            {
+                                "from": "servlet-mapping/servlet-name/text()",
+                                "to": "servlet/servlet-name/text()"
+                            }
+                        ]
+                    },
+                    {
+                        "pattern": "**/aaa.xml",
+                        "expressions": [
+                            {
+                                "from": "@ref",
+                                "to": "bbb/text()",
+                                "multiple": true
+                            }
+                        ]
+                    },
+                    {
+                        "pattern": "**/bbb.xml",
+                        "expressions": [
+                            {
+                                "from": "bbb/text()",
+                                "to": "ccc/text()",
+                                "multiple": true
+                            }
+                        ]
+                    }
+                ],
+                "colors": [
+                    {
+                        "pattern": "**/res/values/colors.xml",
+                        "expressions": [
+                            {
+                                "xpath": "resources/color/text()"
+                            },
+                            {
+                                "xpath": "resources/drawable/text()"
+                            }
+                        ]
+                    },
+                    {
+                        "pattern": "**/colors.xml",
+                        "expressions": [
+                            {
+                                "path": "@color"
+                            }
+                        ]
+                    }
+                ],
+                "extension": {
+                    "jars": [],
+                    "jarsOLD": [
+                        "C:\\Users\\azerr\\git\\lemminx-maven\\lemminx-maven\\target\\lemminx-maven-0.2.1-SNAPSHOT-zip-with-dependencies/*.jar",
+                        "C:\\Users\\azerr\\git\\liberty-language-server\\lemminx-liberty\\target\\lemminx-liberty-1.0-SNAPSHOT.jar"
+                    ],
+                    "jarsOLD3": [
+                        "C:\\Users\\azerr\\eclipse-workspace2\\_\\lemminx-maven-0.4.1-SNAPSHOT-zip-with-dependencies\\*.jar"
+                    ]
+                },
+                "telemetry": {
+                    "enabled": true
+                },
+                "useCache": true,
+                "linkedEditingEnabled": true
+            }
+        },
+        "extendedClientCapabilities": {
+            "codeLens": {
+                "codeLensKind": {
+                    "valueSet": [
+                        "references",
+                        "association",
+                        "open.uri"
+                    ]
+                }
+            },
+            "actionableNotificationSupport": true,
+            "openSettingsCommandSupport": true,
+            "bindingWizardSupport": true
+        }
+    },
+    "trace": "verbose",
+    "workspaceFolders": [
+        {
+            "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test",
+            "name": "vscode-xml-catalog-test"
+        }
+    ]
+}
+
+
+[Trace - 2:41:24 PM] Received notification 'window/logMessage'.
+Params: {
+    "type": 3,
+    "message": "Jan 25, 2023 02:41:24 org.eclipse.lemminx.XMLLanguageServer initialize()\r\nMessage: Initializing XML Language server\r\nLemMinX Server info:\r\n - Version : 0.23.3-SNAPSHOT\r\n - Java : C:\\Users\\azerr\\Tools\\java-17-openjdk-17.0.3.0.6-3.win.x86_64\r\n - VM Version : 17.0.3\r\n - Git [Branch 7a4839e5e9953d60a5ae6fa654abec5cffdff617] 7a4839e - Improve CodeAction to insert expected elements to support choice"
+}
+
+
+[Info  - 2:41:24 PM] Jan 25, 2023 02:41:24 org.eclipse.lemminx.XMLLanguageServer initialize()
+Message: Initializing XML Language server
+LemMinX Server info:
+ - Version : 0.23.3-SNAPSHOT
+ - Java : C:\Users\azerr\Tools\java-17-openjdk-17.0.3.0.6-3.win.x86_64
+ - VM Version : 17.0.3
+ - Git [Branch 7a4839e5e9953d60a5ae6fa654abec5cffdff617] 7a4839e - Improve CodeAction to insert expected elements to support choice
+[Trace - 2:41:24 PM] Received response 'initialize - (0)' in 712ms.
+Result: {
+    "capabilities": {
+        "textDocumentSync": 2,
+        "hoverProvider": false,
+        "definitionProvider": false,
+        "typeDefinitionProvider": false,
+        "referencesProvider": false,
+        "documentHighlightProvider": false,
+        "documentSymbolProvider": false,
+        "documentFormattingProvider": false,
+        "documentRangeFormattingProvider": false,
+        "renameProvider": false,
+        "colorProvider": false,
+        "foldingRangeProvider": false,
+        "workspace": {
+            "workspaceFolders": {
+                "supported": true,
+                "changeNotifications": true
+            }
+        },
+        "linkedEditingRangeProvider": false
+    }
+}
+
+
+[Trace - 2:41:24 PM] Sending notification 'initialized'.
+Params: {}
+
+
+[Trace - 2:41:24 PM] Sending notification 'textDocument/didOpen'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+        "languageId": "xml",
+        "version": 1,
+        "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<?xml-model href=\"http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng\" type=\"application/xml\" schematypens=\"http://relaxng.org/ns/structure/1.0\"?>\r\n<TEI xmlns=\"http://www.tei-c.org/ns/1.0\">\r\n\r\n</TEI>\r\n"
+    }
+}
+
+
+[Trace - 2:41:24 PM] Sending notification 'workspace/didChangeConfiguration'.
+Params: {
+    "settings": {
+        "xml": {
+            "java": {
+                "home": "C:\\Users\\azerr\\Tools\\java-17-openjdk-17.0.3.0.6-3.win.x86_64"
+            },
+            "server": {
+                "vmargs": "-Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication",
+                "workDir": "~/.lemminx",
+                "preferBinary": false,
+                "silenceExtensionWarning": false,
+                "binary": {
+                    "path": "",
+                    "args": "",
+                    "trustedHashes": [
+                        "b6a0f35f9d1cd73fc3804d9d92c5ce8923bd97b78e2018fb1a607958f58bcda6",
+                        "34f51b1d8c3b85bf8af72502c3a52ca841d11cf76f848be198631e0dd2b7e169"
+                    ]
+                }
+            },
+            "trace": {
+                "server": "verbose"
+            },
+            "logs": {
+                "client": true,
+                "file": "c:\\Users\\azerr\\AppData\\Roaming\\Code\\User\\workspaceStorage\\e4ffd3dc7ef10e6afe0b7b2313e41780\\redhat.vscode-xml\\lemminx.log"
+            },
+            "downloadExternalResources": {
+                "enabled": true
+            },
+            "catalogs": [
+                "C:\\Users\\azerr\\eclipse-workspace2\\.metadata\\.plugins\\org.eclipse.wildwebdeveloper.xml\\system-catalog.xml",
+                "C:\\Users\\azerr\\Downloads\\annotationbug\\annotationbug\\jboss\\catalog.xml",
+                "C:\\Users\\azerr\\Downloads\\Large XML\\xml-model\\catalog.xml"
+            ],
+            "fileAssociations": [
+                {
+                    "pattern": "**/*.fsproj",
+                    "systemId": "MSBuild/Microsoft.Build.Commontypes.xsd"
+                },
+                {
+                    "pattern": "**/.project",
+                    "systemId": ".project.xsd"
+                },
+                {
+                    "pattern": "**/Untitled-1.xml",
+                    "systemId": "file:///c%3A/Users/azerr/Downloads/test11.dtd"
+                },
+                {
+                    "pattern": "**/baz.xml",
+                    "systemId": "__relaxng/baz.rnc"
+                },
+                {
+                    "pattern": "**/foo.xml",
+                    "systemId": "__relaxng/xi/foo.rng"
+                },
+                {
+                    "pattern": "**/empty.xml",
+                    "systemId": "BugReportXML/bad.xsd"
+                }
+            ],
+            "foldings": {
+                "includeClosingTagInFold": true
+            },
+            "format": {
+                "enabled": true,
+                "emptyElements": "ignore",
+                "enforceQuoteStyle": "ignore",
+                "legacy": false,
+                "grammarAwareFormatting": false,
+                "joinCDATALines": false,
+                "joinCommentLines": false,
+                "joinContentLines": false,
+                "maxLineWidth": 100,
+                "preserveAttributeLineBreaks": true,
+                "preserveEmptyContent": false,
+                "preservedNewlines": 2,
+                "preserveSpace": [
+                    "xsl:comment",
+                    "xsl:processing-instruction",
+                    "literallayout",
+                    "programlisting",
+                    "screen",
+                    "synopsis",
+                    "pre",
+                    "xd:pre",
+                    "xs:documentation"
+                ],
+                "spaceBeforeEmptyCloseTag": true,
+                "xsiSchemaLocationSplit": "onPair",
+                "splitAttributes": false,
+                "splitAttributesIndentSize": 2,
+                "closingBracketNewLine": false,
+                "experimental": true,
+                "trimFinalNewlines": true,
+                "trimTrailingWhitespace": true,
+                "insertFinalNewline": true
+            },
+            "completion": {
+                "autoCloseTags": true,
+                "autoCloseRemovesContent": true
+            },
+            "codeLens": {
+                "enabled": true
+            },
+            "preferences": {
+                "quoteStyle": "double",
+                "showSchemaDocumentationType": "all"
+            },
+            "validation": {
+                "enabled": true,
+                "namespaces": {
+                    "enabled": "onNamespaceEncountered"
+                },
+                "schema": {
+                    "enabled": "always"
+                },
+                "disallowDocTypeDecl": false,
+                "resolveExternalEntities": true,
+                "xInclude": {
+                    "enabled": true
+                },
+                "noGrammar": "hint",
+                "filters": [
+                    {
+                        "pattern": "**.exsd",
+                        "noGrammar": "ignore",
+                        "schema": {
+                            "enabled": "never"
+                        }
+                    },
+                    {
+                        "pattern": "**{.project,.classpath,plugin.xml,feature.xml,category.xml,.target,.product}",
+                        "noGrammar": "ignore"
+                    }
+                ]
+            },
+            "symbols": {
+                "enabled": false,
+                "excluded": [],
+                "maxItemsComputed": 100,
+                "showReferencedGrammars": true,
+                "filters": [
+                    {
+                        "pattern": "test.xml",
+                        "expressions": [
+                            {
+                                "xpath": "//Layout"
+                            },
+                            {
+                                "xpath": "//Record"
+                            },
+                            {
+                                "xpath": "//Record/@*"
+                            },
+                            {
+                                "xpath": "//",
+                                "excluded": true
+                            }
+                        ]
+                    },
+                    {
+                        "pattern": "pomx.xml",
+                        "expressions": [
+                            {
+                                "xpath": "//version/text()"
+                            },
+                            {
+                                "xpath": "//groupId/text()"
+                            }
+                        ]
+                    },
+                    {
+                        "pattern": "bean*.xml",
+                        "expressions": [
+                            {
+                                "xpath": "//@*"
+                            }
+                        ]
+                    },
+                    {
+                        "pattern": "build.xml",
+                        "expressions": [
+                            {
+                                "xpath": "//target/@name",
+                                "inlineAttribute": true,
+                                "showAttributeName": false
+                            },
+                            {
+                                "xpath": "//target/@unless"
+                            },
+                            {
+                                "xpath": "//target/@depends"
+                            },
+                            {
+                                "xpath": "//property/@name",
+                                "inlineAttribute": true,
+                                "showAttributeName": false
+                            },
+                            {
+                                "xpath": "//property/@file",
+                                "inlineAttribute": true,
+                                "showAttributeName": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            "references": [
+                {
+                    "pattern": "**/*.xml",
+                    "prefix": "#",
+                    "expressions": [
+                        {
+                            "from": "@corresp",
+                            "to": "@xml:id"
+                        },
+                        {
+                            "from": "@resp",
+                            "to": "persName/@xml:id"
+                        },
+                        {
+                            "from": "link/@target",
+                            "to": "@xml:id",
+                            "multiple": true
+                        }
+                    ]
+                },
+                {
+                    "pattern": "**/*.xml",
+                    "expressions": [
+                        {
+                            "from": "xref/@linkend",
+                            "to": "@id"
+                        }
+                    ]
+                },
+                {
+                    "pattern": "**/web.xml",
+                    "expressions": [
+                        {
+                            "from": "servlet-mapping/servlet-name/text()",
+                            "to": "servlet/servlet-name/text()"
+                        }
+                    ]
+                },
+                {
+                    "pattern": "**/aaa.xml",
+                    "expressions": [
+                        {
+                            "from": "@ref",
+                            "to": "bbb/text()",
+                            "multiple": true
+                        }
+                    ]
+                },
+                {
+                    "pattern": "**/bbb.xml",
+                    "expressions": [
+                        {
+                            "from": "bbb/text()",
+                            "to": "ccc/text()",
+                            "multiple": true
+                        }
+                    ]
+                }
+            ],
+            "colors": [
+                {
+                    "pattern": "**/res/values/colors.xml",
+                    "expressions": [
+                        {
+                            "xpath": "resources/color/text()"
+                        },
+                        {
+                            "xpath": "resources/drawable/text()"
+                        }
+                    ]
+                },
+                {
+                    "pattern": "**/colors.xml",
+                    "expressions": [
+                        {
+                            "path": "@color"
+                        }
+                    ]
+                }
+            ],
+            "extension": {
+                "jars": [],
+                "jarsOLD": [
+                    "C:\\Users\\azerr\\git\\lemminx-maven\\lemminx-maven\\target\\lemminx-maven-0.2.1-SNAPSHOT-zip-with-dependencies/*.jar",
+                    "C:\\Users\\azerr\\git\\liberty-language-server\\lemminx-liberty\\target\\lemminx-liberty-1.0-SNAPSHOT.jar"
+                ],
+                "jarsOLD3": [
+                    "C:\\Users\\azerr\\eclipse-workspace2\\_\\lemminx-maven-0.4.1-SNAPSHOT-zip-with-dependencies\\*.jar"
+                ]
+            },
+            "telemetry": {
+                "enabled": true
+            },
+            "useCache": true,
+            "linkedEditingEnabled": true
+        }
+    }
+}
+
+
+[Trace - 2:41:24 PM] Received request 'client/registerCapability - (1)'.
+Params: {
+    "registrations": [
+        {
+            "id": "f6c36a6b-6c04-4392-b42b-3a4a8e8b4446",
+            "method": "textDocument/codeAction",
+            "registerOptions": {
+                "resolveProvider": true
+            }
+        }
+    ]
+}
+
+
+[Trace - 2:41:24 PM] Sending response 'client/registerCapability - (1)'. Processing request took 0ms
+No result returned.
+
+
+[Trace - 2:41:24 PM] Received request 'client/registerCapability - (2)'.
+Params: {
+    "registrations": [
+        {
+            "id": "69a7a0ca-7ca2-42f6-a595-04f18a6d18d0",
+            "method": "textDocument/completion",
+            "registerOptions": {
+                "resolveProvider": true,
+                "triggerCharacters": [
+                    ".",
+                    ":",
+                    "<",
+                    "\"",
+                    "=",
+                    "/",
+                    "\\",
+                    "?",
+                    "'",
+                    "&",
+                    "#"
+                ]
+            }
+        }
+    ]
+}
+
+
+[Trace - 2:41:24 PM] Sending response 'client/registerCapability - (2)'. Processing request took 1ms
+No result returned.
+
+
+[Trace - 2:41:24 PM] Received request 'client/registerCapability - (3)'.
+Params: {
+    "registrations": [
+        {
+            "id": "703daefb-7c0c-4ace-8325-a68f190d88c5",
+            "method": "textDocument/documentHighlight"
+        }
+    ]
+}
+
+
+[Trace - 2:41:24 PM] Sending response 'client/registerCapability - (3)'. Processing request took 1ms
+No result returned.
+
+
+[Trace - 2:41:24 PM] Received request 'client/registerCapability - (4)'.
+Params: {
+    "registrations": [
+        {
+            "id": "346a8fd9-b57b-4f22-b26b-a0396ea7126f",
+            "method": "textDocument/foldingRange"
+        }
+    ]
+}
+
+
+[Trace - 2:41:24 PM] Sending response 'client/registerCapability - (4)'. Processing request took 0ms
+No result returned.
+
+
+[Trace - 2:41:24 PM] Received request 'client/registerCapability - (5)'.
+Params: {
+    "registrations": [
+        {
+            "id": "4f49a70f-dd6f-4921-82b2-bfe56314dd2e",
+            "method": "textDocument/hover"
+        }
+    ]
+}
+
+
+[Trace - 2:41:24 PM] Sending response 'client/registerCapability - (5)'. Processing request took 1ms
+No result returned.
+
+
+[Trace - 2:41:24 PM] Received request 'client/registerCapability - (6)'.
+Params: {
+    "registrations": [
+        {
+            "id": "bcce8c6f-40ef-4f32-8364-58e8b2f02b88",
+            "method": "textDocument/documentLink",
+            "registerOptions": {
+                "resolveProvider": true
+            }
+        }
+    ]
+}
+
+
+[Trace - 2:41:24 PM] Sending response 'client/registerCapability - (6)'. Processing request took 1ms
+No result returned.
+
+
+[Trace - 2:41:24 PM] Received request 'client/registerCapability - (7)'.
+Params: {
+    "registrations": [
+        {
+            "id": "a7a0c0c6-4812-40d3-8921-cb8342ac8a72",
+            "method": "textDocument/documentColor",
+            "registerOptions": {}
+        }
+    ]
+}
+
+
+[Trace - 2:41:24 PM] Sending response 'client/registerCapability - (7)'. Processing request took 1ms
+No result returned.
+
+
+[Trace - 2:41:24 PM] Received request 'client/registerCapability - (8)'.
+Params: {
+    "registrations": [
+        {
+            "id": "ec9d1975-af9a-4ba9-a251-acc140da4f59",
+            "method": "textDocument/rename",
+            "registerOptions": {
+                "prepareProvider": true
+            }
+        }
+    ]
+}
+
+
+[Trace - 2:41:24 PM] Sending response 'client/registerCapability - (8)'. Processing request took 2ms
+No result returned.
+
+
+[Trace - 2:41:24 PM] Received request 'client/registerCapability - (9)'.
+Params: {
+    "registrations": [
+        {
+            "id": "b101d7b7-3eea-47d8-a0e7-86a38f9359ba",
+            "method": "textDocument/definition"
+        }
+    ]
+}
+
+
+[Trace - 2:41:24 PM] Sending response 'client/registerCapability - (9)'. Processing request took 1ms
+No result returned.
+
+
+[Trace - 2:41:24 PM] Received request 'client/registerCapability - (10)'.
+Params: {
+    "registrations": [
+        {
+            "id": "3d66e48b-3a6b-4150-a4a6-3b4d2d3010fb",
+            "method": "textDocument/typeDefinition"
+        }
+    ]
+}
+
+
+[Trace - 2:41:24 PM] Sending response 'client/registerCapability - (10)'. Processing request took 1ms
+No result returned.
+
+
+[Trace - 2:41:24 PM] Received request 'client/registerCapability - (11)'.
+Params: {
+    "registrations": [
+        {
+            "id": "b931c561-bdd6-4720-97ce-d6dc775cc831",
+            "method": "textDocument/references"
+        }
+    ]
+}
+
+
+[Trace - 2:41:24 PM] Sending response 'client/registerCapability - (11)'. Processing request took 1ms
+No result returned.
+
+
+[Trace - 2:41:24 PM] Received request 'client/registerCapability - (12)'.
+Params: {
+    "registrations": [
+        {
+            "id": "de619f87-e741-429b-8005-2dcf011c54b9",
+            "method": "textDocument/linkedEditingRange"
+        }
+    ]
+}
+
+
+[Trace - 2:41:24 PM] Sending response 'client/registerCapability - (12)'. Processing request took 1ms
+No result returned.
+
+
+[Trace - 2:41:24 PM] Received request 'client/registerCapability - (13)'.
+Params: {
+    "registrations": [
+        {
+            "id": "6f5a98a0-faf4-471a-8502-ed88f144446e",
+            "method": "workspace/didChangeWatchedFiles",
+            "registerOptions": {
+                "watchers": [
+                    {
+                        "globPattern": "**/*.xsd"
+                    },
+                    {
+                        "globPattern": "**/*.dtd"
+                    },
+                    {
+                        "globPattern": "**/*.rng"
+                    },
+                    {
+                        "globPattern": "**/*.rnc"
+                    }
+                ]
+            }
+        }
+    ]
+}
+
+
+[Trace - 2:41:24 PM] Sending response 'client/registerCapability - (13)'. Processing request took 1ms
+No result returned.
+
+
+[Trace - 2:41:24 PM] Received request 'client/registerCapability - (14)'.
+Params: {
+    "registrations": [
+        {
+            "id": "fda10dff-0120-4513-a8fd-1ac34729dee8",
+            "method": "textDocument/formatting"
+        }
+    ]
+}
+
+
+[Trace - 2:41:24 PM] Sending response 'client/registerCapability - (14)'. Processing request took 1ms
+No result returned.
+
+
+[Trace - 2:41:24 PM] Sending request 'textDocument/documentColor - (1)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    }
+}
+
+
+[Trace - 2:41:24 PM] Received request 'client/registerCapability - (15)'.
+Params: {
+    "registrations": [
+        {
+            "id": "71531792-319b-494f-ae12-cd3ede4437a3",
+            "method": "textDocument/rangeFormatting"
+        }
+    ]
+}
+
+
+[Trace - 2:41:24 PM] Sending response 'client/registerCapability - (15)'. Processing request took 1ms
+No result returned.
+
+
+[Trace - 2:41:24 PM] Received request 'client/registerCapability - (16)'.
+Params: {
+    "registrations": [
+        {
+            "id": "a1bf1a38-f4e4-41d4-b4b2-9b8aadd9b33b",
+            "method": "textDocument/selectionRange"
+        }
+    ]
+}
+
+
+[Trace - 2:41:24 PM] Sending response 'client/registerCapability - (16)'. Processing request took 1ms
+No result returned.
+
+
+[Trace - 2:41:24 PM] Received request 'client/registerCapability - (17)'.
+Params: {
+    "registrations": [
+        {
+            "id": "76790733-9347-43a4-9bbd-d5c41161dd24",
+            "method": "textDocument/codeLens"
+        }
+    ]
+}
+
+
+[Trace - 2:41:24 PM] Sending response 'client/registerCapability - (17)'. Processing request took 1ms
+No result returned.
+
+
+[Trace - 2:41:24 PM] Received notification 'telemetry/event'.
+Params: {
+    "name": "server.initialized",
+    "properties": {
+        "jvm.version": "17.0.3",
+        "jvm.memory.max": 1073741824,
+        "server.version": "0.23.3-SNAPSHOT",
+        "server.is.native": false,
+        "jvm.memory.total": 534773760,
+        "jvm.runtime": "OpenJDK Runtime Environment",
+        "jvm.memory.free": 520093696,
+        "jvm.name": "OpenJDK 64-Bit Server VM"
+    }
+}
+
+
+[Trace - 2:41:24 PM] Sending request 'textDocument/linkedEditingRange - (2)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "position": {
+        "line": 5,
+        "character": 0
+    }
+}
+
+
+[Trace - 2:41:24 PM] Sending request 'textDocument/documentLink - (3)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    }
+}
+
+
+[Trace - 2:41:24 PM] Received notification 'window/logMessage'.
+Params: {
+    "type": 3,
+    "message": "Jan 25, 2023 02:41:24 org.eclipse.lemminx.extensions.contentmodel.uriresolver.XMLCatalogResolverExtension setCatalogs()\r\nMessage: Adding XML catalog 'C:\\Users\\azerr\\eclipse-workspace2\\.metadata\\.plugins\\org.eclipse.wildwebdeveloper.xml\\system-catalog.xml' with expand system id 'file:///C:/Users/azerr/eclipse-workspace2/.metadata/.plugins/org.eclipse.wildwebdeveloper.xml/system-catalog.xml' and root URI 'file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/'."
+}
+
+
+[Info  - 2:41:24 PM] Jan 25, 2023 02:41:24 org.eclipse.lemminx.extensions.contentmodel.uriresolver.XMLCatalogResolverExtension setCatalogs()
+Message: Adding XML catalog 'C:\Users\azerr\eclipse-workspace2\.metadata\.plugins\org.eclipse.wildwebdeveloper.xml\system-catalog.xml' with expand system id 'file:///C:/Users/azerr/eclipse-workspace2/.metadata/.plugins/org.eclipse.wildwebdeveloper.xml/system-catalog.xml' and root URI 'file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/'.
+[Trace - 2:41:24 PM] Received notification 'window/logMessage'.
+Params: {
+    "type": 3,
+    "message": "Jan 25, 2023 02:41:24 org.eclipse.lemminx.extensions.contentmodel.uriresolver.XMLCatalogResolverExtension setCatalogs()\r\nMessage: Adding XML catalog 'C:\\Users\\azerr\\Downloads\\annotationbug\\annotationbug\\jboss\\catalog.xml' with expand system id 'file:///C:/Users/azerr/Downloads/annotationbug/annotationbug/jboss/catalog.xml' and root URI 'file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/'."
+}
+
+
+[Info  - 2:41:24 PM] Jan 25, 2023 02:41:24 org.eclipse.lemminx.extensions.contentmodel.uriresolver.XMLCatalogResolverExtension setCatalogs()
+Message: Adding XML catalog 'C:\Users\azerr\Downloads\annotationbug\annotationbug\jboss\catalog.xml' with expand system id 'file:///C:/Users/azerr/Downloads/annotationbug/annotationbug/jboss/catalog.xml' and root URI 'file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/'.
+[Trace - 2:41:24 PM] Received notification 'window/logMessage'.
+Params: {
+    "type": 3,
+    "message": "Jan 25, 2023 02:41:24 org.eclipse.lemminx.extensions.contentmodel.uriresolver.XMLCatalogResolverExtension setCatalogs()\r\nMessage: Adding XML catalog 'C:\\Users\\azerr\\Downloads\\Large XML\\xml-model\\catalog.xml' with expand system id 'file:///C:/Users/azerr/Downloads/Large%20XML/xml-model/catalog.xml' and root URI 'file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/'."
+}
+
+
+[Info  - 2:41:24 PM] Jan 25, 2023 02:41:24 org.eclipse.lemminx.extensions.contentmodel.uriresolver.XMLCatalogResolverExtension setCatalogs()
+Message: Adding XML catalog 'C:\Users\azerr\Downloads\Large XML\xml-model\catalog.xml' with expand system id 'file:///C:/Users/azerr/Downloads/Large%20XML/xml-model/catalog.xml' and root URI 'file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/'.
+[Trace - 2:41:24 PM] Received request 'client/registerCapability - (18)'.
+Params: {
+    "registrations": [
+        {
+            "id": "5e0f3871-0099-43a6-b929-7c77ad2a3436",
+            "method": "workspace/executeCommand",
+            "registerOptions": {
+                "commands": [
+                    "xml.check.bound.grammar",
+                    "xml.refactor.surround.with",
+                    "xml.associate.grammar.insert",
+                    "xml.validation.current.file",
+                    "xml.check.file.pattern",
+                    "xml.validation.all.files"
+                ]
+            }
+        }
+    ]
+}
+
+
+[Trace - 2:41:24 PM] Sending response 'client/registerCapability - (18)'. Processing request took 1ms
+[Trace - 2:41:24 PM] Received response 'textDocument/linkedEditingRange - (2)' in 104ms.
+No result returned.
+
+
+[Trace - 2:41:24 PM] Received response 'textDocument/documentColor - (1)' in 144ms.
+Result: []
+
+
+[Trace - 2:41:24 PM] Sending request 'textDocument/foldingRange - (4)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    }
+}
+
+
+[Trace - 2:41:24 PM] Received response 'textDocument/foldingRange - (4)' in 5ms.
+Result: [
+    {
+        "startLine": 2,
+        "endLine": 4
+    }
+]
+
+
+[Trace - 2:41:25 PM] Received response 'textDocument/documentLink - (3)' in 203ms.
+Result: [
+    {
+        "range": {
+            "start": {
+                "line": 1,
+                "character": 18
+            },
+            "end": {
+                "line": 1,
+                "character": 89
+            }
+        },
+        "target": "http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng"
+    }
+]
+
+
+[Trace - 2:41:25 PM] Sending request 'textDocument/codeLens - (5)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    }
+}
+
+
+[Trace - 2:41:25 PM] Received response 'textDocument/codeLens - (5)' in 29ms.
+Result: [
+    {
+        "range": {
+            "start": {
+                "line": 0,
+                "character": 0
+            },
+            "end": {
+                "line": 0,
+                "character": 0
+            }
+        },
+        "command": {
+            "title": "http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng (xml-model)",
+            "command": "xml.open.uri",
+            "arguments": [
+                "file:///C:/Users/azerr/.lemminx/cache/http/www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng"
+            ]
+        }
+    }
+]
+
+
+[Trace - 2:41:25 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {
+    "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+    "diagnostics": [
+        {
+            "range": {
+                "start": {
+                    "line": 2,
+                    "character": 1
+                },
+                "end": {
+                    "line": 2,
+                    "character": 4
+                }
+            },
+            "severity": 1,
+            "code": "incomplete_element_required_element_missing",
+            "source": "xml",
+            "message": "element \"TEI\" incomplete; missing required element \"teiHeader\""
+        }
+    ]
+}
+
+
+[Trace - 2:41:26 PM] Sending request 'textDocument/codeLens - (6)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    }
+}
+
+
+[Trace - 2:41:26 PM] Received response 'textDocument/codeLens - (6)' in 29ms.
+Result: [
+    {
+        "range": {
+            "start": {
+                "line": 0,
+                "character": 0
+            },
+            "end": {
+                "line": 0,
+                "character": 0
+            }
+        },
+        "command": {
+            "title": "http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng (xml-model)",
+            "command": "xml.open.uri",
+            "arguments": [
+                "file:///C:/Users/azerr/.lemminx/cache/http/www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng"
+            ]
+        }
+    }
+]
+
+
+[Trace - 2:41:27 PM] Sending request 'textDocument/linkedEditingRange - (7)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "position": {
+        "line": 0,
+        "character": 0
+    }
+}
+
+
+[Trace - 2:41:27 PM] Received response 'textDocument/linkedEditingRange - (7)' in 4ms.
+No result returned.
+
+
+[Trace - 2:41:27 PM] Sending request 'textDocument/codeAction - (8)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "range": {
+        "start": {
+            "line": 0,
+            "character": 0
+        },
+        "end": {
+            "line": 0,
+            "character": 0
+        }
+    },
+    "context": {
+        "diagnostics": [],
+        "triggerKind": 2
+    }
+}
+
+
+[Trace - 2:41:27 PM] Received request 'workspace/configuration - (19)'.
+Params: {
+    "items": [
+        {
+            "scopeUri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "section": "xml.format.insertSpaces"
+        },
+        {
+            "scopeUri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "section": "xml.format.tabSize"
+        }
+    ]
+}
+
+
+[Trace - 2:41:27 PM] Sending response 'workspace/configuration - (19)'. Processing request took 1ms
+Result: [
+    false,
+    2
+]
+
+
+[Trace - 2:41:27 PM] Received response 'textDocument/codeAction - (8)' in 18ms.
+Result: []
+
+
+[Trace - 2:41:29 PM] Sending request 'textDocument/linkedEditingRange - (9)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "position": {
+        "line": 3,
+        "character": 0
+    }
+}
+
+
+[Trace - 2:41:29 PM] Received response 'textDocument/linkedEditingRange - (9)' in 3ms.
+No result returned.
+
+
+[Trace - 2:41:30 PM] Sending request 'textDocument/completion - (10)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "position": {
+        "line": 3,
+        "character": 0
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 2:41:30 PM] Received response 'textDocument/completion - (10)' in 298ms.
+Result: {
+    "isIncomplete": false,
+    "items": [
+        {
+            "label": "teiHeader",
+            "kind": 10,
+            "documentation": {
+                "kind": "markdown",
+                "value": "(TEI header) supplies descriptive and declarative metadata associated with a digital resource or set of resources. [2.1.1. The TEI Header and Its Components 15.1. Varieties of Composite Text]\r\n\r\nSource: [tei_lite.rng](file:/C:/Users/azerr/.lemminx/cache/http/www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng)"
+            },
+            "sortText": "teiHeader",
+            "filterText": "teiHeader",
+            "insertTextFormat": 2,
+            "textEdit": {
+                "range": {
+                    "start": {
+                        "line": 3,
+                        "character": 0
+                    },
+                    "end": {
+                        "line": 3,
+                        "character": 0
+                    }
+                },
+                "newText": "<teiHeader>$1</teiHeader>$0"
+            },
+            "data": {
+                "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+                "participantId": "org.eclipse.lemminx.services.extensions.completion.ElementEndTagCompletionResolver",
+                "offset": 251,
+                "updateEndTagName": false
+            }
+        },
+        {
+            "label": "#region",
+            "kind": 15,
+            "documentation": "Insert Folding Region Start",
+            "sortText": "za",
+            "filterText": "",
+            "insertTextFormat": 2,
+            "textEdit": {
+                "range": {
+                    "start": {
+                        "line": 3,
+                        "character": 0
+                    },
+                    "end": {
+                        "line": 3,
+                        "character": 0
+                    }
+                },
+                "newText": "<!-- #region $1-->"
+            }
+        },
+        {
+            "label": "#endregion",
+            "kind": 15,
+            "documentation": "Insert Folding Region End",
+            "sortText": "zb",
+            "filterText": "",
+            "insertTextFormat": 1,
+            "textEdit": {
+                "range": {
+                    "start": {
+                        "line": 3,
+                        "character": 0
+                    },
+                    "end": {
+                        "line": 3,
+                        "character": 0
+                    }
+                },
+                "newText": "<!-- #endregion-->"
+            }
+        },
+        {
+            "label": "<![CDATA[",
+            "kind": 15,
+            "detail": "Insert CDATA",
+            "documentation": {
+                "kind": "markdown",
+                "value": "\r\n```\r\n<![CDATA[ ]]>\r\n```\r\n"
+            },
+            "sortText": "ZZb",
+            "filterText": "<![CDATA[",
+            "insertTextFormat": 2,
+            "textEdit": {
+                "range": {
+                    "start": {
+                        "line": 3,
+                        "character": 0
+                    },
+                    "end": {
+                        "line": 3,
+                        "character": 0
+                    }
+                },
+                "newText": "<![CDATA[ $1]]>"
+            }
+        },
+        {
+            "label": "<!--",
+            "kind": 15,
+            "detail": "Insert Comment",
+            "documentation": {
+                "kind": "markdown",
+                "value": "\r\n```\r\n<!-- -->\r\n```\r\n"
+            },
+            "sortText": "ZZa",
+            "filterText": "<!--",
+            "insertTextFormat": 2,
+            "textEdit": {
+                "range": {
+                    "start": {
+                        "line": 3,
+                        "character": 0
+                    },
+                    "end": {
+                        "line": 3,
+                        "character": 0
+                    }
+                },
+                "newText": "<!-- $1-->"
+            }
+        }
+    ]
+}
+
+
+[Trace - 2:41:30 PM] Sending request 'completionItem/resolve - (11)'.
+Params: {
+    "label": "teiHeader",
+    "documentation": {
+        "kind": "markdown",
+        "value": "(TEI header) supplies descriptive and declarative metadata associated with a digital resource or set of resources. [2.1.1. The TEI Header and Its Components 15.1. Varieties of Composite Text]\r\n\r\nSource: [tei_lite.rng](file:/C:/Users/azerr/.lemminx/cache/http/www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng)"
+    },
+    "filterText": "teiHeader",
+    "insertTextFormat": 2,
+    "textEdit": {
+        "newText": "<teiHeader>$1</teiHeader>$0",
+        "range": {
+            "start": {
+                "line": 3,
+                "character": 0
+            },
+            "end": {
+                "line": 3,
+                "character": 0
+            }
+        }
+    },
+    "kind": 10,
+    "sortText": "teiHeader",
+    "data": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+        "participantId": "org.eclipse.lemminx.services.extensions.completion.ElementEndTagCompletionResolver",
+        "offset": 251,
+        "updateEndTagName": false
+    }
+}
+
+
+[Trace - 2:41:30 PM] Received response 'completionItem/resolve - (11)' in 4ms.
+Result: {
+    "label": "teiHeader",
+    "kind": 10,
+    "documentation": {
+        "kind": "markdown",
+        "value": "(TEI header) supplies descriptive and declarative metadata associated with a digital resource or set of resources. [2.1.1. The TEI Header and Its Components 15.1. Varieties of Composite Text]\r\n\r\nSource: [tei_lite.rng](file:/C:/Users/azerr/.lemminx/cache/http/www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng)"
+    },
+    "sortText": "teiHeader",
+    "filterText": "teiHeader",
+    "insertTextFormat": 2,
+    "textEdit": {
+        "range": {
+            "start": {
+                "line": 3,
+                "character": 0
+            },
+            "end": {
+                "line": 3,
+                "character": 0
+            }
+        },
+        "newText": "<teiHeader>$1</teiHeader>$0"
+    },
+    "data": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+        "participantId": "org.eclipse.lemminx.services.extensions.completion.ElementEndTagCompletionResolver",
+        "offset": 251,
+        "updateEndTagName": false
+    }
+}
+
+
+[Trace - 2:41:31 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+        "version": 2
+    },
+    "contentChanges": [
+        {
+            "range": {
+                "start": {
+                    "line": 3,
+                    "character": 0
+                },
+                "end": {
+                    "line": 3,
+                    "character": 0
+                }
+            },
+            "rangeLength": 0,
+            "text": "<teiHeader></teiHeader>"
+        }
+    ]
+}
+
+
+[Trace - 2:41:31 PM] Sending request 'xml/closeTag - (12)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "position": {
+        "line": 3,
+        "character": 23
+    }
+}
+
+
+[Trace - 2:41:31 PM] Received response 'xml/closeTag - (12)' in 4ms.
+No result returned.
+
+
+[Trace - 2:41:32 PM] Sending request 'textDocument/foldingRange - (13)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    }
+}
+
+
+[Trace - 2:41:32 PM] Sending request 'textDocument/linkedEditingRange - (14)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "position": {
+        "line": 3,
+        "character": 11
+    }
+}
+
+
+[Trace - 2:41:32 PM] Received response 'textDocument/foldingRange - (13)' in 4ms.
+Result: [
+    {
+        "startLine": 2,
+        "endLine": 4
+    }
+]
+
+
+[Trace - 2:41:32 PM] Received response 'textDocument/linkedEditingRange - (14)' in 4ms.
+No result returned.
+
+
+[Trace - 2:41:32 PM] Sending request 'textDocument/codeAction - (15)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "range": {
+        "start": {
+            "line": 3,
+            "character": 11
+        },
+        "end": {
+            "line": 3,
+            "character": 11
+        }
+    },
+    "context": {
+        "diagnostics": [],
+        "triggerKind": 2
+    }
+}
+
+
+[Trace - 2:41:32 PM] Sending request 'textDocument/codeLens - (16)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    }
+}
+
+
+[Trace - 2:41:32 PM] Received request 'workspace/configuration - (20)'.
+Params: {
+    "items": [
+        {
+            "scopeUri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "section": "xml.format.insertSpaces"
+        },
+        {
+            "scopeUri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "section": "xml.format.tabSize"
+        }
+    ]
+}
+
+
+[Trace - 2:41:32 PM] Sending response 'workspace/configuration - (20)'. Processing request took 0ms
+Result: [
+    false,
+    2
+]
+
+
+[Trace - 2:41:32 PM] Received response 'textDocument/codeAction - (15)' in 11ms.
+Result: []
+
+
+[Trace - 2:41:32 PM] Received response 'textDocument/codeLens - (16)' in 11ms.
+Result: [
+    {
+        "range": {
+            "start": {
+                "line": 0,
+                "character": 0
+            },
+            "end": {
+                "line": 0,
+                "character": 0
+            }
+        },
+        "command": {
+            "title": "http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng (xml-model)",
+            "command": "xml.open.uri",
+            "arguments": [
+                "file:///C:/Users/azerr/.lemminx/cache/http/www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng"
+            ]
+        }
+    }
+]
+
+
+[Trace - 2:41:32 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {
+    "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+    "diagnostics": [
+        {
+            "range": {
+                "start": {
+                    "line": 3,
+                    "character": 1
+                },
+                "end": {
+                    "line": 3,
+                    "character": 10
+                }
+            },
+            "severity": 1,
+            "code": "incomplete_element_required_element_missing",
+            "source": "xml",
+            "message": "element \"teiHeader\" incomplete; missing required element \"fileDesc\""
+        },
+        {
+            "range": {
+                "start": {
+                    "line": 2,
+                    "character": 1
+                },
+                "end": {
+                    "line": 2,
+                    "character": 4
+                }
+            },
+            "severity": 1,
+            "code": "incomplete_element_required_elements_missing_expected",
+            "source": "xml",
+            "message": "element \"TEI\" incomplete; expected element \"TEI\" or \"text\""
+        }
+    ]
+}
+
+
+[Trace - 2:41:32 PM] Sending request 'textDocument/codeAction - (17)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "range": {
+        "start": {
+            "line": 3,
+            "character": 11
+        },
+        "end": {
+            "line": 3,
+            "character": 11
+        }
+    },
+    "context": {
+        "diagnostics": [],
+        "triggerKind": 2
+    }
+}
+
+
+[Trace - 2:41:32 PM] Received request 'workspace/configuration - (21)'.
+Params: {
+    "items": [
+        {
+            "scopeUri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "section": "xml.format.insertSpaces"
+        },
+        {
+            "scopeUri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "section": "xml.format.tabSize"
+        }
+    ]
+}
+
+
+[Trace - 2:41:32 PM] Sending response 'workspace/configuration - (21)'. Processing request took 0ms
+Result: [
+    false,
+    2
+]
+
+
+[Trace - 2:41:32 PM] Received response 'textDocument/codeAction - (17)' in 14ms.
+Result: []
+
+
+[Trace - 2:41:32 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+        "version": 3
+    },
+    "contentChanges": [
+        {
+            "range": {
+                "start": {
+                    "line": 3,
+                    "character": 11
+                },
+                "end": {
+                    "line": 3,
+                    "character": 11
+                }
+            },
+            "rangeLength": 0,
+            "text": "\r\n\t\r\n"
+        }
+    ]
+}
+
+
+[Trace - 2:41:32 PM] Sending request 'textDocument/documentColor - (18)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    }
+}
+
+
+[Trace - 2:41:32 PM] Received response 'textDocument/documentColor - (18)' in 3ms.
+Result: []
+
+
+[Trace - 2:41:33 PM] Sending request 'textDocument/foldingRange - (19)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    }
+}
+
+
+[Trace - 2:41:33 PM] Sending request 'textDocument/linkedEditingRange - (20)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "position": {
+        "line": 4,
+        "character": 1
+    }
+}
+
+
+[Trace - 2:41:33 PM] Received response 'textDocument/foldingRange - (19)' in 6ms.
+Result: [
+    {
+        "startLine": 3,
+        "endLine": 5
+    },
+    {
+        "startLine": 2,
+        "endLine": 6
+    }
+]
+
+
+[Trace - 2:41:33 PM] Received response 'textDocument/linkedEditingRange - (20)' in 6ms.
+No result returned.
+
+
+[Trace - 2:41:33 PM] Sending request 'textDocument/codeLens - (21)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    }
+}
+
+
+[Trace - 2:41:33 PM] Received response 'textDocument/codeLens - (21)' in 6ms.
+Result: [
+    {
+        "range": {
+            "start": {
+                "line": 0,
+                "character": 0
+            },
+            "end": {
+                "line": 0,
+                "character": 0
+            }
+        },
+        "command": {
+            "title": "http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng (xml-model)",
+            "command": "xml.open.uri",
+            "arguments": [
+                "file:///C:/Users/azerr/.lemminx/cache/http/www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng"
+            ]
+        }
+    }
+]
+
+
+[Trace - 2:41:33 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {
+    "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+    "diagnostics": [
+        {
+            "range": {
+                "start": {
+                    "line": 3,
+                    "character": 1
+                },
+                "end": {
+                    "line": 3,
+                    "character": 10
+                }
+            },
+            "severity": 1,
+            "code": "incomplete_element_required_element_missing",
+            "source": "xml",
+            "message": "element \"teiHeader\" incomplete; missing required element \"fileDesc\""
+        },
+        {
+            "range": {
+                "start": {
+                    "line": 2,
+                    "character": 1
+                },
+                "end": {
+                    "line": 2,
+                    "character": 4
+                }
+            },
+            "severity": 1,
+            "code": "incomplete_element_required_elements_missing_expected",
+            "source": "xml",
+            "message": "element \"TEI\" incomplete; expected element \"TEI\" or \"text\""
+        }
+    ]
+}
+
+
+[Trace - 2:41:33 PM] Sending request 'textDocument/completion - (22)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "position": {
+        "line": 4,
+        "character": 1
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 2:41:33 PM] Received response 'textDocument/completion - (22)' in 14ms.
+Result: {
+    "isIncomplete": false,
+    "items": [
+        {
+            "label": "fileDesc",
+            "kind": 10,
+            "documentation": {
+                "kind": "markdown",
+                "value": "(file description) contains a full bibliographic description of an electronic file. [2.2. The File Description 2.1.1. The TEI Header and Its Components]\r\n\r\nSource: [tei_lite.rng](file:/C:/Users/azerr/.lemminx/cache/http/www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng)"
+            },
+            "sortText": "fileDesc",
+            "filterText": "fileDesc",
+            "insertTextFormat": 2,
+            "textEdit": {
+                "range": {
+                    "start": {
+                        "line": 4,
+                        "character": 1
+                    },
+                    "end": {
+                        "line": 4,
+                        "character": 1
+                    }
+                },
+                "newText": "<fileDesc>$1</fileDesc>$0"
+            },
+            "data": {
+                "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+                "participantId": "org.eclipse.lemminx.services.extensions.completion.ElementEndTagCompletionResolver",
+                "offset": 265,
+                "updateEndTagName": false
+            }
+        },
+        {
+            "label": "#region",
+            "kind": 15,
+            "documentation": "Insert Folding Region Start",
+            "sortText": "za",
+            "filterText": "\t",
+            "insertTextFormat": 2,
+            "textEdit": {
+                "range": {
+                    "start": {
+                        "line": 4,
+                        "character": 1
+                    },
+                    "end": {
+                        "line": 4,
+                        "character": 1
+                    }
+                },
+                "newText": "<!-- #region $1-->"
+            }
+        },
+        {
+            "label": "#endregion",
+            "kind": 15,
+            "documentation": "Insert Folding Region End",
+            "sortText": "zb",
+            "filterText": "\t",
+            "insertTextFormat": 1,
+            "textEdit": {
+                "range": {
+                    "start": {
+                        "line": 4,
+                        "character": 1
+                    },
+                    "end": {
+                        "line": 4,
+                        "character": 1
+                    }
+                },
+                "newText": "<!-- #endregion-->"
+            }
+        },
+        {
+            "label": "<![CDATA[",
+            "kind": 15,
+            "detail": "Insert CDATA",
+            "documentation": {
+                "kind": "markdown",
+                "value": "\r\n```\r\n<![CDATA[ ]]>\r\n```\r\n"
+            },
+            "sortText": "ZZb",
+            "filterText": "<![CDATA[",
+            "insertTextFormat": 2,
+            "textEdit": {
+                "range": {
+                    "start": {
+                        "line": 4,
+                        "character": 1
+                    },
+                    "end": {
+                        "line": 4,
+                        "character": 1
+                    }
+                },
+                "newText": "<![CDATA[ $1]]>"
+            }
+        },
+        {
+            "label": "<!--",
+            "kind": 15,
+            "detail": "Insert Comment",
+            "documentation": {
+                "kind": "markdown",
+                "value": "\r\n```\r\n<!-- -->\r\n```\r\n"
+            },
+            "sortText": "ZZa",
+            "filterText": "<!--",
+            "insertTextFormat": 2,
+            "textEdit": {
+                "range": {
+                    "start": {
+                        "line": 4,
+                        "character": 1
+                    },
+                    "end": {
+                        "line": 4,
+                        "character": 1
+                    }
+                },
+                "newText": "<!-- $1-->"
+            }
+        }
+    ]
+}
+
+
+[Trace - 2:41:33 PM] Sending request 'completionItem/resolve - (23)'.
+Params: {
+    "label": "fileDesc",
+    "documentation": {
+        "kind": "markdown",
+        "value": "(file description) contains a full bibliographic description of an electronic file. [2.2. The File Description 2.1.1. The TEI Header and Its Components]\r\n\r\nSource: [tei_lite.rng](file:/C:/Users/azerr/.lemminx/cache/http/www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng)"
+    },
+    "filterText": "fileDesc",
+    "insertTextFormat": 2,
+    "textEdit": {
+        "newText": "<fileDesc>$1</fileDesc>$0",
+        "range": {
+            "start": {
+                "line": 4,
+                "character": 1
+            },
+            "end": {
+                "line": 4,
+                "character": 1
+            }
+        }
+    },
+    "kind": 10,
+    "sortText": "fileDesc",
+    "data": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+        "participantId": "org.eclipse.lemminx.services.extensions.completion.ElementEndTagCompletionResolver",
+        "offset": 265,
+        "updateEndTagName": false
+    }
+}
+
+
+[Trace - 2:41:33 PM] Received response 'completionItem/resolve - (23)' in 3ms.
+Result: {
+    "label": "fileDesc",
+    "kind": 10,
+    "documentation": {
+        "kind": "markdown",
+        "value": "(file description) contains a full bibliographic description of an electronic file. [2.2. The File Description 2.1.1. The TEI Header and Its Components]\r\n\r\nSource: [tei_lite.rng](file:/C:/Users/azerr/.lemminx/cache/http/www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng)"
+    },
+    "sortText": "fileDesc",
+    "filterText": "fileDesc",
+    "insertTextFormat": 2,
+    "textEdit": {
+        "range": {
+            "start": {
+                "line": 4,
+                "character": 1
+            },
+            "end": {
+                "line": 4,
+                "character": 1
+            }
+        },
+        "newText": "<fileDesc>$1</fileDesc>$0"
+    },
+    "data": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+        "participantId": "org.eclipse.lemminx.services.extensions.completion.ElementEndTagCompletionResolver",
+        "offset": 265,
+        "updateEndTagName": false
+    }
+}
+
+
+[Trace - 2:41:33 PM] Sending request 'textDocument/documentLink - (24)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    }
+}
+
+
+[Trace - 2:41:33 PM] Received response 'textDocument/documentLink - (24)' in 5ms.
+Result: [
+    {
+        "range": {
+            "start": {
+                "line": 1,
+                "character": 18
+            },
+            "end": {
+                "line": 1,
+                "character": 89
+            }
+        },
+        "target": "http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng"
+    }
+]
+
+
+[Trace - 2:41:34 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+        "version": 4
+    },
+    "contentChanges": [
+        {
+            "range": {
+                "start": {
+                    "line": 4,
+                    "character": 1
+                },
+                "end": {
+                    "line": 4,
+                    "character": 1
+                }
+            },
+            "rangeLength": 0,
+            "text": "<fileDesc></fileDesc>"
+        }
+    ]
+}
+
+
+[Trace - 2:41:34 PM] Sending request 'xml/closeTag - (25)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "position": {
+        "line": 4,
+        "character": 22
+    }
+}
+
+
+[Trace - 2:41:34 PM] Received response 'xml/closeTag - (25)' in 2ms.
+No result returned.
+
+
+[Trace - 2:41:34 PM] Sending request 'textDocument/foldingRange - (26)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    }
+}
+
+
+[Trace - 2:41:34 PM] Sending request 'textDocument/linkedEditingRange - (27)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "position": {
+        "line": 4,
+        "character": 11
+    }
+}
+
+
+[Trace - 2:41:34 PM] Received response 'textDocument/foldingRange - (26)' in 3ms.
+Result: [
+    {
+        "startLine": 3,
+        "endLine": 5
+    },
+    {
+        "startLine": 2,
+        "endLine": 6
+    }
+]
+
+
+[Trace - 2:41:34 PM] Received response 'textDocument/linkedEditingRange - (27)' in 3ms.
+No result returned.
+
+
+[Trace - 2:41:34 PM] Sending request 'textDocument/codeAction - (28)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "range": {
+        "start": {
+            "line": 4,
+            "character": 11
+        },
+        "end": {
+            "line": 4,
+            "character": 11
+        }
+    },
+    "context": {
+        "diagnostics": [],
+        "triggerKind": 2
+    }
+}
+
+
+[Trace - 2:41:34 PM] Sending request 'textDocument/codeLens - (29)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    }
+}
+
+
+[Trace - 2:41:34 PM] Received request 'workspace/configuration - (22)'.
+Params: {
+    "items": [
+        {
+            "scopeUri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "section": "xml.format.insertSpaces"
+        },
+        {
+            "scopeUri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "section": "xml.format.tabSize"
+        }
+    ]
+}
+
+
+[Trace - 2:41:34 PM] Sending response 'workspace/configuration - (22)'. Processing request took 0ms
+Result: [
+    false,
+    2
+]
+
+
+[Trace - 2:41:34 PM] Received response 'textDocument/codeAction - (28)' in 7ms.
+Result: []
+
+
+[Trace - 2:41:34 PM] Received response 'textDocument/codeLens - (29)' in 7ms.
+Result: [
+    {
+        "range": {
+            "start": {
+                "line": 0,
+                "character": 0
+            },
+            "end": {
+                "line": 0,
+                "character": 0
+            }
+        },
+        "command": {
+            "title": "http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng (xml-model)",
+            "command": "xml.open.uri",
+            "arguments": [
+                "file:///C:/Users/azerr/.lemminx/cache/http/www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng"
+            ]
+        }
+    }
+]
+
+
+[Trace - 2:41:35 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {
+    "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+    "diagnostics": [
+        {
+            "range": {
+                "start": {
+                    "line": 4,
+                    "character": 2
+                },
+                "end": {
+                    "line": 4,
+                    "character": 10
+                }
+            },
+            "severity": 1,
+            "code": "incomplete_element_required_element_missing",
+            "source": "xml",
+            "message": "element \"fileDesc\" incomplete; missing required element \"titleStmt\""
+        },
+        {
+            "range": {
+                "start": {
+                    "line": 2,
+                    "character": 1
+                },
+                "end": {
+                    "line": 2,
+                    "character": 4
+                }
+            },
+            "severity": 1,
+            "code": "incomplete_element_required_elements_missing_expected",
+            "source": "xml",
+            "message": "element \"TEI\" incomplete; expected element \"TEI\" or \"text\""
+        }
+    ]
+}
+
+
+[Trace - 2:41:35 PM] Sending request 'textDocument/codeAction - (30)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "range": {
+        "start": {
+            "line": 4,
+            "character": 11
+        },
+        "end": {
+            "line": 4,
+            "character": 11
+        }
+    },
+    "context": {
+        "diagnostics": [],
+        "triggerKind": 2
+    }
+}
+
+
+[Trace - 2:41:35 PM] Received request 'workspace/configuration - (23)'.
+Params: {
+    "items": [
+        {
+            "scopeUri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "section": "xml.format.insertSpaces"
+        },
+        {
+            "scopeUri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "section": "xml.format.tabSize"
+        }
+    ]
+}
+
+
+[Trace - 2:41:35 PM] Sending response 'workspace/configuration - (23)'. Processing request took 0ms
+Result: [
+    false,
+    2
+]
+
+
+[Trace - 2:41:35 PM] Received response 'textDocument/codeAction - (30)' in 19ms.
+Result: []
+
+
+[Trace - 2:41:35 PM] Sending request 'textDocument/documentLink - (31)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    }
+}
+
+
+[Trace - 2:41:35 PM] Sending request 'textDocument/documentColor - (32)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    }
+}
+
+
+[Trace - 2:41:35 PM] Received response 'textDocument/documentLink - (31)' in 5ms.
+Result: [
+    {
+        "range": {
+            "start": {
+                "line": 1,
+                "character": 18
+            },
+            "end": {
+                "line": 1,
+                "character": 89
+            }
+        },
+        "target": "http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng"
+    }
+]
+
+
+[Trace - 2:41:35 PM] Received response 'textDocument/documentColor - (32)' in 6ms.
+Result: []
+
+
+[Trace - 2:41:37 PM] Sending request 'textDocument/hover - (33)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "position": {
+        "line": 4,
+        "character": 6
+    }
+}
+
+
+[Trace - 2:41:37 PM] Received response 'textDocument/hover - (33)' in 7ms.
+Result: {
+    "contents": {
+        "kind": "markdown",
+        "value": "(file description) contains a full bibliographic description of an electronic file. [2.2. The File Description 2.1.1. The TEI Header and Its Components]\r\n\r\nSource: [tei_lite.rng](file:/C:/Users/azerr/.lemminx/cache/http/www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng)"
+    },
+    "range": {
+        "start": {
+            "line": 4,
+            "character": 2
+        },
+        "end": {
+            "line": 4,
+            "character": 10
+        }
+    }
+}
+
+
+[Trace - 2:41:37 PM] Sending request 'textDocument/codeAction - (34)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "range": {
+        "start": {
+            "line": 4,
+            "character": 2
+        },
+        "end": {
+            "line": 4,
+            "character": 10
+        }
+    },
+    "context": {
+        "diagnostics": [
+            {
+                "range": {
+                    "start": {
+                        "line": 4,
+                        "character": 2
+                    },
+                    "end": {
+                        "line": 4,
+                        "character": 10
+                    }
+                },
+                "message": "element \"fileDesc\" incomplete; missing required element \"titleStmt\"",
+                "code": "incomplete_element_required_element_missing",
+                "severity": 1,
+                "source": "xml"
+            }
+        ],
+        "only": [
+            "quickfix"
+        ],
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 2:41:37 PM] Received request 'workspace/configuration - (24)'.
+Params: {
+    "items": [
+        {
+            "scopeUri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "section": "xml.format.insertSpaces"
+        },
+        {
+            "scopeUri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "section": "xml.format.tabSize"
+        }
+    ]
+}
+
+
+[Trace - 2:41:37 PM] Sending response 'workspace/configuration - (24)'. Processing request took 0ms
+Result: [
+    false,
+    2
+]
+
+
+[Trace - 2:41:37 PM] Received response 'textDocument/codeAction - (34)' in 40ms.
+Result: [
+    {
+        "title": "Insert only required elements",
+        "kind": "quickfix",
+        "diagnostics": [
+            {
+                "range": {
+                    "start": {
+                        "line": 4,
+                        "character": 2
+                    },
+                    "end": {
+                        "line": 4,
+                        "character": 10
+                    }
+                },
+                "severity": 1,
+                "code": "incomplete_element_required_element_missing",
+                "source": "xml",
+                "message": "element \"fileDesc\" incomplete; missing required element \"titleStmt\""
+            }
+        ],
+        "data": {
+            "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "participantId": "org.eclipse.lemminx.extensions.contentmodel.participants.codeactions.missingelement.required_element_missingCodeActionResolver",
+            "required": "required"
+        }
+    },
+    {
+        "title": "Insert all expected elements",
+        "kind": "quickfix",
+        "diagnostics": [
+            {
+                "range": {
+                    "start": {
+                        "line": 4,
+                        "character": 2
+                    },
+                    "end": {
+                        "line": 4,
+                        "character": 10
+                    }
+                },
+                "severity": 1,
+                "code": "incomplete_element_required_element_missing",
+                "source": "xml",
+                "message": "element \"fileDesc\" incomplete; missing required element \"titleStmt\""
+            }
+        ],
+        "data": {
+            "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "participantId": "org.eclipse.lemminx.extensions.contentmodel.participants.codeactions.missingelement.required_element_missingCodeActionResolver",
+            "required": "all"
+        }
+    }
+]
+
+
+[Trace - 2:41:38 PM] Sending request 'textDocument/hover - (35)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "position": {
+        "line": 4,
+        "character": 12
+    }
+}
+
+
+[Trace - 2:41:38 PM] Received response 'textDocument/hover - (35)' in 2ms.
+No result returned.
+
+
+[Trace - 2:41:40 PM] Sending request 'codeAction/resolve - (36)'.
+Params: {
+    "title": "Insert only required elements",
+    "data": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+        "participantId": "org.eclipse.lemminx.extensions.contentmodel.participants.codeactions.missingelement.required_element_missingCodeActionResolver",
+        "required": "required"
+    },
+    "kind": "quickfix",
+    "diagnostics": [
+        {
+            "range": {
+                "start": {
+                    "line": 4,
+                    "character": 2
+                },
+                "end": {
+                    "line": 4,
+                    "character": 10
+                }
+            },
+            "message": "element \"fileDesc\" incomplete; missing required element \"titleStmt\"",
+            "code": "incomplete_element_required_element_missing",
+            "severity": 1,
+            "source": "xml"
+        }
+    ]
+}
+
+
+[Trace - 2:41:40 PM] Received response 'codeAction/resolve - (36)' in 28ms.
+Result: {
+    "title": "Insert only required elements",
+    "kind": "quickfix",
+    "diagnostics": [
+        {
+            "range": {
+                "start": {
+                    "line": 4,
+                    "character": 2
+                },
+                "end": {
+                    "line": 4,
+                    "character": 10
+                }
+            },
+            "severity": 1,
+            "code": "incomplete_element_required_element_missing",
+            "source": "xml",
+            "message": "element \"fileDesc\" incomplete; missing required element \"titleStmt\""
+        }
+    ],
+    "edit": {
+        "documentChanges": [
+            {
+                "textDocument": {
+                    "version": 4,
+                    "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+                },
+                "edits": [
+                    {
+                        "range": {
+                            "start": {
+                                "line": 4,
+                                "character": 11
+                            },
+                            "end": {
+                                "line": 4,
+                                "character": 11
+                            }
+                        },
+                        "newText": "\r\n\t\t<titleStmt>\r\n\t\t\t<title></title>\r\n\t\t</titleStmt>\r\n\t\t<publicationStmt>\r\n\t\t\t<publisher></publisher>\r\n\t\t\t<distributor></distributor>\r\n\t\t\t<authority></authority>\r\n\t\t\t<p></p>\r\n\t\t</publicationStmt>\r\n\t\t<sourceDesc>\r\n\t\t\t<p></p>\r\n\t\t\t<bibl></bibl>\r\n\t\t\t<listBibl>\r\n\t\t\t\t<bibl></bibl>\r\n\t\t\t</listBibl>\r\n\t\t\t<list>\r\n\t\t\t\t<item></item>\r\n\t\t\t\t<label></label>\r\n\t\t\t</list>\r\n\t\t\t<table>\r\n\t\t\t\t<row>\r\n\t\t\t\t\t<cell></cell>\r\n\t\t\t\t</row>\r\n\t\t\t\t<graphic url=\"\"></graphic>\r\n\t\t\t\t<formula></formula>\r\n\t\t\t</table>\r\n\t\t</sourceDesc>\r\n\t"
+                    }
+                ]
+            }
+        ]
+    },
+    "data": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+        "participantId": "org.eclipse.lemminx.extensions.contentmodel.participants.codeactions.missingelement.required_element_missingCodeActionResolver",
+        "required": "required"
+    }
+}
+
+
+[Trace - 2:41:40 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+        "version": 5
+    },
+    "contentChanges": [
+        {
+            "range": {
+                "start": {
+                    "line": 4,
+                    "character": 11
+                },
+                "end": {
+                    "line": 4,
+                    "character": 11
+                }
+            },
+            "rangeLength": 0,
+            "text": "\r\n\t\t<titleStmt>\r\n\t\t\t<title></title>\r\n\t\t</titleStmt>\r\n\t\t<publicationStmt>\r\n\t\t\t<publisher></publisher>\r\n\t\t\t<distributor></distributor>\r\n\t\t\t<authority></authority>\r\n\t\t\t<p></p>\r\n\t\t</publicationStmt>\r\n\t\t<sourceDesc>\r\n\t\t\t<p></p>\r\n\t\t\t<bibl></bibl>\r\n\t\t\t<listBibl>\r\n\t\t\t\t<bibl></bibl>\r\n\t\t\t</listBibl>\r\n\t\t\t<list>\r\n\t\t\t\t<item></item>\r\n\t\t\t\t<label></label>\r\n\t\t\t</list>\r\n\t\t\t<table>\r\n\t\t\t\t<row>\r\n\t\t\t\t\t<cell></cell>\r\n\t\t\t\t</row>\r\n\t\t\t\t<graphic url=\"\"></graphic>\r\n\t\t\t\t<formula></formula>\r\n\t\t\t</table>\r\n\t\t</sourceDesc>\r\n\t"
+        }
+    ]
+}
+
+
+[Trace - 2:41:40 PM] Sending request 'textDocument/codeAction - (37)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "range": {
+        "start": {
+            "line": 32,
+            "character": 1
+        },
+        "end": {
+            "line": 32,
+            "character": 1
+        }
+    },
+    "context": {
+        "diagnostics": [],
+        "triggerKind": 2
+    }
+}
+
+
+[Trace - 2:41:40 PM] Received request 'workspace/configuration - (25)'.
+Params: {
+    "items": [
+        {
+            "scopeUri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "section": "xml.format.insertSpaces"
+        },
+        {
+            "scopeUri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "section": "xml.format.tabSize"
+        }
+    ]
+}
+
+
+[Trace - 2:41:40 PM] Sending response 'workspace/configuration - (25)'. Processing request took 0ms
+Result: [
+    false,
+    2
+]
+
+
+[Trace - 2:41:40 PM] Received response 'textDocument/codeAction - (37)' in 6ms.
+Result: []
+
+
+[Trace - 2:41:41 PM] Sending request 'textDocument/foldingRange - (38)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    }
+}
+
+
+[Trace - 2:41:41 PM] Sending request 'textDocument/linkedEditingRange - (39)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "position": {
+        "line": 32,
+        "character": 1
+    }
+}
+
+
+[Trace - 2:41:41 PM] Received response 'textDocument/foldingRange - (38)' in 13ms.
+Result: [
+    {
+        "startLine": 5,
+        "endLine": 7
+    },
+    {
+        "startLine": 8,
+        "endLine": 13
+    },
+    {
+        "startLine": 17,
+        "endLine": 19
+    },
+    {
+        "startLine": 20,
+        "endLine": 23
+    },
+    {
+        "startLine": 25,
+        "endLine": 27
+    },
+    {
+        "startLine": 24,
+        "endLine": 30
+    },
+    {
+        "startLine": 14,
+        "endLine": 31
+    },
+    {
+        "startLine": 4,
+        "endLine": 32
+    },
+    {
+        "startLine": 3,
+        "endLine": 33
+    },
+    {
+        "startLine": 2,
+        "endLine": 34
+    }
+]
+
+
+[Trace - 2:41:41 PM] Received response 'textDocument/linkedEditingRange - (39)' in 12ms.
+No result returned.
+
+
+[Trace - 2:41:41 PM] Sending request 'textDocument/codeAction - (40)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "range": {
+        "start": {
+            "line": 32,
+            "character": 1
+        },
+        "end": {
+            "line": 32,
+            "character": 1
+        }
+    },
+    "context": {
+        "diagnostics": [],
+        "triggerKind": 2
+    }
+}
+
+
+[Trace - 2:41:41 PM] Sending request 'textDocument/codeLens - (41)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    }
+}
+
+
+[Trace - 2:41:41 PM] Received request 'workspace/configuration - (26)'.
+Params: {
+    "items": [
+        {
+            "scopeUri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "section": "xml.format.insertSpaces"
+        },
+        {
+            "scopeUri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "section": "xml.format.tabSize"
+        }
+    ]
+}
+
+
+[Trace - 2:41:41 PM] Sending response 'workspace/configuration - (26)'. Processing request took 0ms
+Result: [
+    false,
+    2
+]
+
+
+[Trace - 2:41:41 PM] Received response 'textDocument/codeLens - (41)' in 9ms.
+Result: [
+    {
+        "range": {
+            "start": {
+                "line": 0,
+                "character": 0
+            },
+            "end": {
+                "line": 0,
+                "character": 0
+            }
+        },
+        "command": {
+            "title": "http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng (xml-model)",
+            "command": "xml.open.uri",
+            "arguments": [
+                "file:///C:/Users/azerr/.lemminx/cache/http/www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng"
+            ]
+        }
+    }
+]
+
+
+[Trace - 2:41:41 PM] Received response 'textDocument/codeAction - (40)' in 13ms.
+Result: []
+
+
+[Trace - 2:41:41 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {
+    "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+    "diagnostics": [
+        {
+            "range": {
+                "start": {
+                    "line": 12,
+                    "character": 4
+                },
+                "end": {
+                    "line": 12,
+                    "character": 5
+                }
+            },
+            "severity": 1,
+            "code": "out_of_context_element",
+            "source": "xml",
+            "message": "element \"p\" not allowed here; expected the element end-tag or element \"address\", \"authority\", \"availability\", \"date\", \"distributor\", \"idno\", \"ptr\", \"pubPlace\", \"publisher\" or \"ref\""
+        },
+        {
+            "range": {
+                "start": {
+                    "line": 16,
+                    "character": 4
+                },
+                "end": {
+                    "line": 16,
+                    "character": 8
+                }
+            },
+            "severity": 1,
+            "code": "out_of_context_element",
+            "source": "xml",
+            "message": "element \"bibl\" not allowed here; expected the element end-tag or element \"p\""
+        },
+        {
+            "range": {
+                "start": {
+                    "line": 17,
+                    "character": 4
+                },
+                "end": {
+                    "line": 17,
+                    "character": 12
+                }
+            },
+            "severity": 1,
+            "code": "out_of_context_element",
+            "source": "xml",
+            "message": "element \"listBibl\" not allowed here; expected the element end-tag or element \"p\""
+        },
+        {
+            "range": {
+                "start": {
+                    "line": 20,
+                    "character": 4
+                },
+                "end": {
+                    "line": 20,
+                    "character": 8
+                }
+            },
+            "severity": 1,
+            "code": "out_of_context_element",
+            "source": "xml",
+            "message": "element \"list\" not allowed here; expected the element end-tag or element \"p\""
+        },
+        {
+            "range": {
+                "start": {
+                    "line": 22,
+                    "character": 5
+                },
+                "end": {
+                    "line": 22,
+                    "character": 10
+                }
+            },
+            "severity": 1,
+            "code": "out_of_context_element",
+            "source": "xml",
+            "message": "element \"label\" not allowed here; expected the element end-tag or element \"anchor\", \"argument\", \"byline\", \"closer\", \"dateline\", \"docAuthor\", \"docDate\", \"epigraph\", \"figure\", \"gap\", \"index\", \"interp\", \"interpGrp\", \"item\", \"lb\", \"milestone\", \"note\", \"pb\", \"postscript\", \"salute\", \"signed\" or \"trailer\""
+        },
+        {
+            "range": {
+                "start": {
+                    "line": 24,
+                    "character": 4
+                },
+                "end": {
+                    "line": 24,
+                    "character": 9
+                }
+            },
+            "severity": 1,
+            "code": "out_of_context_element",
+            "source": "xml",
+            "message": "element \"table\" not allowed here; expected the element end-tag or element \"p\""
+        },
+        {
+            "range": {
+                "start": {
+                    "line": 28,
+                    "character": 5
+                },
+                "end": {
+                    "line": 28,
+                    "character": 12
+                }
+            },
+            "severity": 1,
+            "code": "out_of_context_element",
+            "source": "xml",
+            "message": "element \"graphic\" not allowed here; expected the element end-tag or element \"anchor\", \"argument\", \"byline\", \"closer\", \"dateline\", \"docAuthor\", \"docDate\", \"epigraph\", \"figure\", \"gap\", \"index\", \"interp\", \"interpGrp\", \"lb\", \"milestone\", \"note\", \"pb\", \"postscript\", \"row\", \"salute\", \"signed\" or \"trailer\""
+        },
+        {
+            "range": {
+                "start": {
+                    "line": 28,
+                    "character": 17
+                },
+                "end": {
+                    "line": 28,
+                    "character": 19
+                }
+            },
+            "severity": 1,
+            "code": "invalid_attribute_value",
+            "source": "xml",
+            "message": "value of attribute \"url\" is invalid; must be a URI matching the regular expression \"\\S+\""
+        },
+        {
+            "range": {
+                "start": {
+                    "line": 29,
+                    "character": 5
+                },
+                "end": {
+                    "line": 29,
+                    "character": 12
+                }
+            },
+            "severity": 1,
+            "code": "out_of_context_element",
+            "source": "xml",
+            "message": "element \"formula\" not allowed here; expected the element end-tag or element \"anchor\", \"argument\", \"byline\", \"closer\", \"dateline\", \"docAuthor\", \"docDate\", \"epigraph\", \"figure\", \"gap\", \"index\", \"interp\", \"interpGrp\", \"lb\", \"milestone\", \"note\", \"pb\", \"postscript\", \"row\", \"salute\", \"signed\" or \"trailer\""
+        },
+        {
+            "range": {
+                "start": {
+                    "line": 2,
+                    "character": 1
+                },
+                "end": {
+                    "line": 2,
+                    "character": 4
+                }
+            },
+            "severity": 1,
+            "code": "incomplete_element_required_elements_missing_expected",
+            "source": "xml",
+            "message": "element \"TEI\" incomplete; expected element \"TEI\" or \"text\""
+        }
+    ]
+}
+
+
+[Trace - 2:41:41 PM] Sending request 'textDocument/codeAction - (42)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    },
+    "range": {
+        "start": {
+            "line": 32,
+            "character": 1
+        },
+        "end": {
+            "line": 32,
+            "character": 1
+        }
+    },
+    "context": {
+        "diagnostics": [],
+        "triggerKind": 2
+    }
+}
+
+
+[Trace - 2:41:41 PM] Received request 'workspace/configuration - (27)'.
+Params: {
+    "items": [
+        {
+            "scopeUri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "section": "xml.format.insertSpaces"
+        },
+        {
+            "scopeUri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml",
+            "section": "xml.format.tabSize"
+        }
+    ]
+}
+
+
+[Trace - 2:41:41 PM] Sending response 'workspace/configuration - (27)'. Processing request took 1ms
+Result: [
+    false,
+    2
+]
+
+
+[Trace - 2:41:41 PM] Received response 'textDocument/codeAction - (42)' in 18ms.
+Result: []
+
+
+[Trace - 2:41:41 PM] Sending request 'textDocument/documentLink - (43)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    }
+}
+
+
+[Trace - 2:41:41 PM] Sending request 'textDocument/documentColor - (44)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///c%3A/Users/azerr/Downloads/vscode-xml-catalog-test/__relaxng/tei2.xml"
+    }
+}
+
+
+[Trace - 2:41:41 PM] Received response 'textDocument/documentLink - (43)' in 8ms.
+Result: [
+    {
+        "range": {
+            "start": {
+                "line": 1,
+                "character": 18
+            },
+            "end": {
+                "line": 1,
+                "character": 89
+            }
+        },
+        "target": "http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng"
+    }
+]
+
+
+[Trace - 2:41:41 PM] Received response 'textDocument/documentColor - (44)' in 7ms.
+Result: []
+
+
